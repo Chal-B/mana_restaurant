@@ -59,7 +59,7 @@ Télécharger ou cloner le dépôt, puis ouvrir le dossier du projet :
 
 ```bash
 git clone URL_DU_DEPOT
-cd "PROJET 6.1 Site vitrine"
+cd "mana_restaurant"
 ```
 
 Ouvrir ensuite `index.html` dans le navigateur. L’utilisation de **Live Server** est optionnelle.
@@ -75,7 +75,7 @@ Ouvrir ensuite `index.html` dans le navigateur. L’utilisation de **Live Server
 ## Structure
 
 ```text
-PROJET 6.1 Site vitrine/
+mana_restaurant/
 ├── index.html
 ├── Pages/
 │   ├── index.html
