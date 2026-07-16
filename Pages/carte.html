@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../Css/style.css">
+    <title>Mana Restaurant — La Carte</title>
+</head>
+<body>
+    <header class="site-header">
+        <div class="site-header__inner">
+            <a class="site-header__brand" href="index.html">
+                <img src="../images/icones/ManaLogo.png" alt="Mana Restaurant" width="72" height="72">
+            </a>
+            <input type="checkbox" id="menu-toggle" class="menu-coche">
+            <label for="menu-toggle" class="menu-burger">
+                <span class="titre-cache">Menu</span>
+                <span class="menu-burger__barre" aria-hidden="true"></span>
+                <span class="menu-burger__barre" aria-hidden="true"></span>
+                <span class="menu-burger__barre" aria-hidden="true"></span>
+            </label>
+            <nav class="site-nav" id="nav-principale" aria-label="Navigation principale">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="carte.html" aria-current="page">Carte</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="a-propos.html">À propos</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-banner">
+        <div class="page-banner__inner">
+            <p class="eyebrow">Saveurs authentiques</p>
+            <h1>La Carte</h1>
+            <p>Le royaume du tchep et des grillades .</p>
+        </div>
+    </section>
+
+    <nav class="carte-ancres" aria-label="Catégories du menu">
+        <div class="carte-ancres__inner">
+            <a href="#grillades">Grillades</a>
+            <a href="#tcheps">Tcheps &amp; attiéké</a>
+            <a href="#snacks">Snacks</a>
+            <a href="#pizzas">Pizzas</a>
+            <a href="#accompagnements">Accompagnements</a>
+            <a href="#desserts">Desserts</a>
+            <a href="#boissons">Boissons</a>
+        </div>
+    </nav>
+
+    <main class="page-main">
+        <section class="menu-visuel reveal" id="grillades">
+            <h2>Grillades &amp; tradition</h2>
+            <div class="plats-visuels">
+                <article class="plat-visuel"><img src="../images/Plats/grillades-tradition/poisson-braise.jpg" alt="Poisson braisé"><div><h3>Poisson braisé</h3><p class="prix">4 000 FCFA</p></div></article>
+                <article class="plat-visuel"><img src="../images/Plats/grillades-tradition/cotes-sautees.jpg" alt="Côtes sautées"><div><h3>Côtes sautées</h3><p class="prix">4 500 FCFA</p></div></article>
+                <article class="plat-visuel"><img src="../images/Plats/grillades-tradition/cuisse-poulet-braisee.jpg" alt="Cuisse de poulet braisée"><div><h3>Cuisse poulet braisée</h3><p class="prix">3 500 FCFA</p></div></article>
+                <article class="plat-visuel"><img src="../images/Plats/grillades-tradition/poulet-mayo.jpg" alt="Poulet mayo"><div><h3>Poulet mayo</h3><p class="prix">4 500 / 7 500 FCFA</p></div></article>
+                <article class="plat-visuel"><img src="../images/Plats/grillades-tradition/cotes-braisees.jpg" alt="Côtes braisées"><div><h3>Côtes braisées</h3><p class="prix">4 000–4 500 FCFA</p></div></article>
+                <article class="plat-visuel"><img src="../images/Plats/grillades-tradition/cotes-mayo.jpg" alt="Côtes mayo"><div><h3>Côtes mayo</h3><p class="prix">4 500–5 000 FCFA</p></div></article>
+                <article class="plat-visuel"><img src="../images/Plats/grillades-tradition/corvina-grille.jpg" alt="Corvina grillé"><div><h3>Corvina grillé</h3><p class="prix">5 000 FCFA</p></div></article>
+                <article class="plat-visuel"><img src="../images/Plats/grillades-tradition/poulet-yassa.jpg" alt="Poulet yassa"><div><h3>Poulet yassa (+ riz)</h3><p class="prix">4 500 FCFA</p></div></article>
+                <article class="plat-visuel"><img src="../images/Plats/grillades-tradition/poisson-sale-aubergines.jpg" alt="Poisson salé aubergines"><div><h3>Poisson salé aubergines</h3><p class="prix">4 500–5 000 FCFA</p></div></article>
+                <article class="plat-visuel"><img src="../images/Plats/grillades-tradition/bouillon-poisson.jpg" alt="Bouillon de poisson"><div><h3>Bouillon de poisson</h3><p class="prix">5 000 FCFA</p></div></article>
+                <article class="plat-visuel"><img src="../images/Plats/grillades-tradition/bouillon-sauvage.jpg" alt="Bouillon sauvage"><div><h3>Bouillon sauvage</h3><p class="prix">6 000 FCFA</p></div></article>
+                <article class="plat-visuel"><img src="../images/Plats/grillades-tradition/trois-pieces.jpg" alt="Trois pièces"><div><h3>Trois pièces</h3><p class="prix">4 500 FCFA</p></div></article>
+                <article class="plat-visuel"><img src="../images/Plats/accompagnements/manioc.jpg" alt="Manioc"><div><h3>Accompagnement manioc</h3><p class="prix">Offert</p></div></article>
+            </div>
+        </section>
+
+        <section class="menu-visuel menu-visuel--alt reveal" id="tcheps">
+            <h2>Tcheps &amp; attiéké</h2>
+            <div class="plats-visuels">
+                <article class="plat-visuel"><img src="../images/Plats/tcheps-attieke/tchep-poulet.jpg" alt="Tchep poulet"><div><h3>Tchep poulet</h3><p class="prix">4 000–4 500 FCFA</p></div></article>
+                <article class="plat-visuel"><img src="../images/Plats/tcheps-attieke/tchep-poisson.jpg" alt="Tchep poisson"><div><h3>Tchep poisson</h3><p class="prix">4 500–5 000 FCFA</p></div></article>
+                <article class="plat-visuel"><img src="../images/Plats/tcheps-attieke/tchep-viande.jpg" alt="Tchep viande"><div><h3>Tchep viande</h3><p class="prix">5 000 FCFA</p></div></article>
+                <article class="plat-visuel"><img src="../images/Plats/tcheps-attieke/tchep-cotes.jpg" alt="Tchep côtes"><div><h3>Tchep côtes</h3><p class="prix">4 500 FCFA</p></div></article>
+                <article class="plat-visuel"><img src="../images/Plats/tcheps-attieke/attieke-poulet.jpg" alt="Attiéké poulet"><div><h3>Attiéké poulet</h3><p class="prix">4 500 FCFA</p></div></article>
+                <article class="plat-visuel"><img src="../images/Plats/tcheps-attieke/attieke-poisson.jpg" alt="Attiéké poisson"><div><h3>Attiéké poisson</h3><p class="prix">5 000 FCFA</p></div></article>
+            </div>
+        </section>
+
+        <section class="menu-visuel reveal" id="snacks">
+            <h2>Snacks</h2>
+            <div class="plats-visuels">
+                <article class="plat-visuel"><img src="../images/Plats/snacks/chawarma-poulet.jpg" alt="Chawarma poulet"><div><h3>Chawarma poulet</h3><p class="prix">2 500 FCFA</p></div></article>
+                <article class="plat-visuel"><img src="../images/Plats/snacks/chawarma-viande.jpg" alt="Chawarma viande"><div><h3>Chawarma viande</h3><p class="prix">3 000 FCFA</p></div></article>
+                <article class="plat-visuel"><img src="../images/Plats/snacks/tacos-poulet.jpg" alt="Tacos poulet"><div><h3>Tacos poulet / XL</h3><p class="prix">5 000 FCFA</p></div></article>
+                <article class="plat-visuel"><img src="../images/Plats/snacks/tacos-viande.jpg" alt="Tacos viande"><div><h3>Tacos viande</h3><p class="prix">6 000 FCFA</p></div></article>
+            </div>
+        </section>
+
+        <section class="menu-visuel menu-visuel--alt reveal" id="pizzas">
+            <h2>Pizzas</h2>
+            <div class="plats-visuels">
+                <article class="plat-visuel"><img src="../images/Plats/pizzas/pizza-margherita.jpg" alt="Pizza margherita"><div><h3>Margherita</h3><p class="prix">3 500 FCFA</p></div></article>
+                <article class="plat-visuel"><img src="../images/Plats/pizzas/pizza-jambon-fromage.jpg" alt="Pizza jambon fromage"><div><h3>Jambon fromage</h3><p class="prix">4 500 FCFA</p></div></article>
+                <article class="plat-visuel"><img src="../images/Plats/pizzas/pizza-poulet.jpg" alt="Pizza poulet"><div><h3>Poulet</h3><p class="prix">5 000 FCFA</p></div></article>
+                <article class="plat-visuel"><img src="../images/Plats/pizzas/pizza-viande-hachee.jpg" alt="Pizza viande hachée"><div><h3>Viande hachée</h3><p class="prix">6 000 FCFA</p></div></article>
+            </div>
+        </section>
+
+        <section class="menu-visuel reveal" id="accompagnements">
+            <h2>Accompagnements</h2>
+            <div class="plats-visuels">
+                <article class="plat-visuel"><img src="../images/Plats/accompagnements/riz.jpg" alt="Riz"><div><h3>Riz</h3><p class="prix">1 000 FCFA</p></div></article>
+                <article class="plat-visuel"><img src="../images/Plats/accompagnements/banane.jpg" alt="Banane"><div><h3>Banane</h3><p class="prix">1 000 FCFA</p></div></article>
+                <article class="plat-visuel"><img src="../images/Plats/accompagnements/frites.jpg" alt="Frites"><div><h3>Frites</h3><p class="prix">1 000 FCFA</p></div></article>
+                <article class="plat-visuel"><img src="../images/Plats/accompagnements/legumes.jpg" alt="Légumes"><div><h3>Légumes</h3><p class="prix">2 000 FCFA</p></div></article>
+                <article class="plat-visuel"><img src="../images/Plats/accompagnements/saka-saka.jpg" alt="Saka-saka"><div><h3>Saka / Saka-saka</h3><p class="prix">2 000–2 500 FCFA</p></div></article>
+                <article class="plat-visuel"><img src="../images/Plats/accompagnements/manioc.jpg" alt="Manioc"><div><h3>Manioc</h3><p class="prix">Offert</p></div></article>
+            </div>
+        </section>
+
+        <section class="menu-visuel menu-visuel--alt reveal" id="desserts">
+            <h2>Desserts</h2>
+            <div class="plats-visuels">
+                <article class="plat-visuel"><img src="../images/Plats/desserts/degue.jpg" alt="Dégué"><div><h3>Dégué</h3><p class="prix">1 500 FCFA</p></div></article>
+            </div>
+        </section>
+
+        <section class="menu-visuel reveal" id="boissons">
+            <h2>Boissons</h2>
+            <div class="plats-visuels">
+                <article class="plat-visuel"><img src="../images/Plats/boissons/eau-vival.jpg" alt="Eau Vival"><div><h3>Eau (Vival)</h3><p class="prix">500 FCFA</p></div></article>
+                <article class="plat-visuel"><img src="../images/Plats/boissons/bissap.jpg" alt="Bissap"><div><h3>Bissap</h3><p class="prix">1 000 FCFA</p></div></article>
+                <article class="plat-visuel"><img src="../images/Plats/boissons/gingembre.jpg" alt="Gingembre"><div><h3>Gingembre</h3><p class="prix">1 000 FCFA</p></div></article>
+                <article class="plat-visuel"><img src="../images/Plats/boissons/gazeuses.jpg" alt="Gazeuses"><div><h3>Gazeuses / Orangina</h3><p class="prix">1 000 FCFA</p></div></article>
+                <article class="plat-visuel"><img src="../images/Plats/boissons/bieres-courantes.jpeg" alt="Bières courantes"><div><h3>Bières courantes</h3><p class="prix">1 000–1 500 FCFA</p></div></article>
+                <article class="plat-visuel"><img src="../images/Plats/boissons/savana.jpg" alt="Savana"><div><h3>Savana</h3><p class="prix">~2 000 FCFA</p></div></article>
+                <article class="plat-visuel"><img src="../images/Plats/boissons/desperados.jpg" alt="Desperados"><div><h3>Desperados</h3><p class="prix">~2 000 FCFA</p></div></article>
+                <article class="plat-visuel"><img src="../images/Plats/boissons/bavaria.jpg" alt="Bavaria"><div><h3>Bavaria</h3><p class="prix">~2 000 FCFA</p></div></article>
+                <article class="plat-visuel"><img src="../images/Plats/boissons/vin-rouge-bissap.jpg" alt="Vin rouge bissap"><div><h3>Vin rouge bissap</h3><p class="prix">2 500 FCFA</p></div></article>
+                <article class="plat-visuel"><img src="../images/Plats/boissons/cocktail-bissap.jpg" alt="Cocktail bissap"><div><h3>Cocktail bissap / gingembre</h3><p class="prix">3 500 FCFA</p></div></article>
+            </div>
+        </section>
+
+        <section class="bandeau-cta reveal">
+            <div class="bandeau-cta__inner">
+                <h2>Une envie précise ?</h2>
+                <p>Appelez-nous ou réservez votre table .</p>
+                <a href="contact.html" class="btn btn-voir-carte">Nous contacter</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content-left">
+            <img src="../images/icones/ManaLogo.png" alt="Mana Restaurant">
+            <p>Copyright © 2026 Mana Restaurant. Tous droits réservés.</p>
+        </div>
+        <div class="footer-content-center">
+            <p>Suivez Mana Restaurant</p>
+            <div class="footer-content-center-social">
+                <a href="https://www.facebook.com/manarestaurant.cg" target="_blank" rel="noopener noreferrer"><img src="../images/icones/facebook.svg" alt="Facebook"></a>
+                <a href="https://www.instagram.com/lemana.cg?igsh=MWgzZGJ4aHljemYydQ==" target="_blank" rel="noopener noreferrer"><img src="../images/icones/instagram.svg" alt="Instagram"></a>
+                <a href="https://www.tiktok.com/@lemana.cg" target="_blank" rel="noopener noreferrer"><img src="../images/icones/tiktok.svg" alt="TikTok"></a>
+            </div>
+        </div>
+        <div class="footer-content-right">
+           
+            <p>Horaires : tous les jours 11h–23h </p>
+            <p>Tél. : <a href="tel:+242067282843">+242 06 950 71 96</a></p>
+            <p>Email : <a href="mailto:contact@manarestaurant.cg">contact@manarestaurant.cg</a></p>
+        </div>
+    </footer>
+</body>
+</html>
