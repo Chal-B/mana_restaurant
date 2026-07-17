@@ -112,7 +112,13 @@ Le formulaire de contact est une démonstration front-end. Il ne transmet pas en
 
 ## Déploiement
 
-Le projet est prévu pour être publié avec **GitHub Pages**. Le fichier `index.html` situé à la racine redirige automatiquement vers la page d’accueil du site.
+Le projet est prévu pour être publié avec **GitHub Pages**:
+
+## Déploiement
+
+Le projet est prévu pour être publié avec **GitHub Pages** :
+
+[https://chal-b.github.io/mana_restaurant/](https://chal-b.github.io/mana_restaurant/)
 
 ## Contact
 
